@@ -1,0 +1,10 @@
+概要
+ 巡回セールスマン問題のソルバーです。
+ TSPLIB(http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/)にある問題例を読み込めます。
+
+使い方
+ java -jar tsp.jar -instance xxx.tsp -algorithm ls
+ アルゴリズムは ls (Local Search)と sa (Simulated Annealing)を実装してあります。近傍は2-opt近傍です。
+ 
+ライセンス
+ Apache License Version 2.0
