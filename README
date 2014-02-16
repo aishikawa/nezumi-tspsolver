@@ -1,8 +1,8 @@
-This is traveling salesman problem(TSP) solver.
+This is an incomplete traveling salesman problem(TSP) solver.
 It can handle TSPLIB(http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/) instances.
 
 Usage
- java -jar tsp.jar -instance xxx.tsp -algorithm ls
+ java -jar tsp.jar -instance foo.tsp -algorithm ls
  ls (Local Search) and sa (Simulated Annealing) are implemented.
 
 LICENSE
